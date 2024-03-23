@@ -1,0 +1,49 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .poster {
+    background-image: url('avenger.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .content h1 {
+    font-size: 5em;
+  }
+  
+  .content p {
+    font-size: 2em;
+  }
+
+.yellow-box {
+    background-color: #ffcc00; /* Yellow color */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.watch-button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: #ff9900; /* Darker yellow on hover */
+}
+
+ 
